@@ -27,7 +27,7 @@
         this.updated_at = updated_at
     }
     /* Go get the code for the customer-component tag that is in the template */
-    import MovieComponent from '@/components/MovieComponet.vue'
+    import MovieComponent from '@/components/MovieComponent.vue'
     export default {
         data () {
             return {
