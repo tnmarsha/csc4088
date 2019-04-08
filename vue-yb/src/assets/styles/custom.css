@@ -1,0 +1,18 @@
+#nav {
+    background-color: #328eb2;
+}
+
+#footer {
+    padding: 10px;
+    background-color: #328eb2;
+    color: #fffffd;
+}
+
+.btn {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+div.btn a {
+    color: #fff;
+}
