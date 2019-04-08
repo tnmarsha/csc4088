@@ -34,7 +34,7 @@
     methods: {
       read () {
       // had to use someone else web link for the code to work
-        let url = 'https://rckennell.com/api/movies/' + this.id
+        let url = 'https://unknownseller.net/api/movies/' + this.id
         window.axios.get(url).then(({ data }) => {
           this.movie = data;
         })
@@ -43,7 +43,7 @@
     computed: {
         /* Build URL for image */
         imageUrl: function () {
-            return "http://codeflare.tech/images/movie_" + this.movie.id + ".jpg";
+            return "http://unknownseller.net/images/movie_" + this.movie.id + ".jpg";
         }
     },
     components: {
