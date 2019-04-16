@@ -19,7 +19,7 @@ export default {
     computed: {
         /* Build URL for image */
         imageUrl: function(){
-          return   "http://unknownseller.net/images/movie_" + this.transaction.movie_id + ".jpg";
+          return   "http://rckennell.com/images/movie_" + this.transaction.movie_id + ".jpg";
         },
         /* MAke a pretty date for showing last_update */
         rented: function(){

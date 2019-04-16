@@ -29,7 +29,7 @@
     },
     methods: {
       read () {
-        let url = 'https://unknownseller.net/api/customers/' + this.id
+        let url = 'https://rckennell.com/api/customers/' + this.id
         window.axios.get(url).then(({ data }) => {
           this.customer = data;
         })

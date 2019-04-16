@@ -43,7 +43,7 @@
         methods: {
             read() {
             // had to use someone else web link for the code to work
-                let url = 'https://unknownseller.net/api/movies/' + this.id + '/rentals'
+                let url = 'https://rckennell.com/api/movies/' + this.id + '/rentals'
                 window.axios.get(url).then(({data}) => {
                     this.title = data[0].title;
                     console.log(this.title);

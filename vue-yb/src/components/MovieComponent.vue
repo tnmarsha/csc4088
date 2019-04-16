@@ -32,7 +32,7 @@ export default {
     computed:{
         /* Build URL for image */
         imageUrl: function(){
-            return   "http://unknownseller.net/images/movie_" + this.id + ".jpg";
+            return   "http://rckennell.com/images/movie_" + this.id + ".jpg";
         },
     },
     props: ['id', 'title', 'rating', 'length', 'onDVD', 'onBluRay']

@@ -38,7 +38,7 @@
             read () {
                 this.movies = []
                 // had to use someone else web link for the code to work
-                window.axios.get('https://unknownseller.net/api/movies').then(({ data }) => {
+                window.axios.get('https://rckennell.com/api/movies').then(({ data }) => {
                     data.forEach(movie => {
                         this.movies.push(new Movie (movie))
                     })

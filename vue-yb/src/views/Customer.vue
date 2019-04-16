@@ -43,7 +43,7 @@
     methods: {
       read () {
         this.customers = []
-        window.axios.get('https://unknownseller.net/api/customers').then(({ data }) => {
+        window.axios.get('https://rckennell.com/api/customers').then(({ data }) => {
           data.forEach(customer => {
                 this.customers.push(new Customer(customer))
             })
